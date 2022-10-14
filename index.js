@@ -17,5 +17,6 @@ function inputData(makeupInfo) {
 	const name = document.createElement('div');
 	const img = document.createElement('img');
 	const desc = document.createElement('div');
+	const price = document.createElement('price');
 
 }
