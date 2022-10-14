@@ -4,5 +4,7 @@ document.addEventListener('DOMContentLoaded', () => {
   .then((data) => {
     console.log('Data', data);
   })
-
+  data.forEach((obj) => {
+    inputData(obj);
+  });
 })
