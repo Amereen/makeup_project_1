@@ -6,5 +6,10 @@ document.addEventListener('DOMContentLoaded', () => {
   })
   data.forEach((obj) => {
     inputData(obj);
-  });
-})
+    });
+    
+});
+
+function inputData(makeupInfo) {
+  
+}
