@@ -13,8 +13,9 @@ document.addEventListener('DOMContentLoaded', () => {
 function inputData(makeupInfo) {
   const divCard = document.createElement('div');
 	const btn = document.createElement('button');
-	const ratingCounter = document.createElement('div');
+	const liked = document.createElement('div');
 	const name = document.createElement('div');
 	const img = document.createElement('img');
+	const desc = document.createElement('div');
 
 }
