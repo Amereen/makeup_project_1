@@ -6,6 +6,7 @@ document.addEventListener('DOMContentLoaded', () => {
   })
   data.forEach((obj) => {
     inputData(obj);
+    console.log('category')
     });
     
 });
