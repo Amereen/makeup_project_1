@@ -19,4 +19,6 @@ function inputData(makeupInfo) {
 	const desc = document.createElement('div');
 	const price = document.createElement('div');
 
+  // comment test
+
 }
