@@ -13,4 +13,4 @@ If you hover your cursor over any product image, a complete product description 
 <img width="1440" alt="desc" src="https://user-images.githubusercontent.com/109322301/196077845-b2df4b21-ec40-4f62-97e5-598d73855ce3.png">
 ## Sources
 API Source:http://makeup-api.herokuapp.com/api/v1/products.json?brand=maybelline
-image:https://www.harpersbazaar.com/beauty/makeup/g40719573/charlotte-tilbury-summer-sale/
+Image:https://www.harpersbazaar.com/beauty/makeup/g40719573/charlotte-tilbury-summer-sale/
