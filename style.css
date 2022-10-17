@@ -8,14 +8,11 @@ p {
 #Header {
 	display: flex;
 	justify-content: center;
-	/* background: pink; */
-	/* opacity: 0.8; */
-	/* height: 12rem; */
-	/* padding: 1rem; */
-	/* size: 39pc; */
+	
 }
 h1 {
-	background-color: pink;
+	background-color: rgb(102, 15, 15);
+font-style: italic;
 }
 
 .makeup-products {

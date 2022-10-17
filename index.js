@@ -4,7 +4,6 @@ document.addEventListener('DOMContentLoaded', () => {
   .then((response) => response.json())
   .then((data) => {
     console.log('Data', data);
-  // })
   data.forEach((obj) => {
     inputData(obj);
     console.log('category')
@@ -13,10 +12,6 @@ document.addEventListener('DOMContentLoaded', () => {
   })
     
 });
-
-
-
-
 
 const container = document.querySelector('.product_section');
 const category = document.querySelector('#category');
@@ -46,7 +41,7 @@ function inputData(makeupInfo) {
 	btn.setAttribute('class', 'like-btn');
 	btn.innerText = '♥';
   btn.addEventListener('click', function (event) {
-		const newLikes = (liked.innerText) 
+	const newLikes = (liked.innerText) 
 	liked.innerText = `${newLikes} Liked!`
   });
 	img.src = 'https:' + makeupInfo.api_featured_image; //concatenation
@@ -63,10 +58,5 @@ function inputData(makeupInfo) {
 		// console.log(makeupInfo.description);
 		desc.style.display = 'none';
 	});
-
   container.append(divCard);
-
-
-
-
 }
