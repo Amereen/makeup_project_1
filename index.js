@@ -18,6 +18,9 @@ document.addEventListener('DOMContentLoaded', () => {
 const container = document.querySelector('.product_section');
 const category = document.querySelector('#category');
 
+category.addEventListener('change',function(event){
+})
+
 function inputData(makeupInfo) {
   const divCard = document.createElement('div');
 	const btn = document.createElement('button');
