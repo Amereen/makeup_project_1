@@ -4,12 +4,13 @@ document.addEventListener('DOMContentLoaded', () => {
   .then((response) => response.json())
   .then((data) => {
     console.log('Data', data);
-  })
+  // })
   data.forEach((obj) => {
     inputData(obj);
     console.log('category')
     products.push(obj)
     });
+  })
     
 });
 
