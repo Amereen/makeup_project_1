@@ -22,6 +22,7 @@ function inputData(makeupInfo) {
   desc.innerText = makeupInfo.description
   desc.setAttribute('class', 'desc')
   img.setAttribute('class', 'makeup-products');
+	divCard.setAttribute('class', 'card');
 
 
 }
