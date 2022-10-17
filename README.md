@@ -4,7 +4,7 @@ Hello! Welcome to my Maybelline Makeup App!
 # Project-1-Makeup
 The project's primary objective was to develop an engaging and simple app platform for enhancing women's cosmetic experiences and access to inexpensive cosmetics.
 ## Usage
-In my app I have included a like button '♥'. You can heart any products you love and it will state 'liked!'
+In my app I have included a like button '♥'. You can heart any product you love and it will state 'liked!'
 <img width="1440" alt="liked" src="https://user-images.githubusercontent.com/109322301/196077180-58e4de48-76a4-4828-9d3d-ee008f22d2a2.png">
 Additionally, I've added a drop-down category selector which will allow you to navigate directly to the cosemtic product you would like to see.
 <img width="1440" alt="cate" src="https://user-images.githubusercontent.com/109322301/196077724-262022a5-4284-4d4b-8cc5-47a9eaa04f6a.png">
