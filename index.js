@@ -22,7 +22,9 @@ const category = document.querySelector('#category');
 category.addEventListener('change',function(event){
   const filtered = products.filter((obj)=>obj.category===event.target.value)
 	container.innerHTML=''
-
+	filtered.forEach((obj) => {
+		inputData(obj);
+	});
 })
 
 function inputData(makeupInfo) {
