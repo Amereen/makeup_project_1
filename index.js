@@ -32,6 +32,8 @@ function inputData(makeupInfo) {
 	liked.innerText = `${newLikes} Liked!`
   });
 	img.src = 'https:' + makeupInfo.api_featured_image; //concatenation
+  divCard.append(name, img, price, btn, liked,desc);
+  
 
 
 
