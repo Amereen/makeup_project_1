@@ -24,6 +24,6 @@ function inputData(makeupInfo) {
   img.setAttribute('class', 'makeup-products');
 	divCard.setAttribute('class', 'card');
 	btn.setAttribute('class', 'like-btn');
-
+	btn.innerHTML = '♥';
 
 }
