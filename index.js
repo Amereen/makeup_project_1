@@ -20,6 +20,7 @@ function inputData(makeupInfo) {
 	const desc = document.createElement('div');
 	const price = document.createElement('div');
   name.innerText = makeupInfo.name;
+	price.innerText = `Price: $${makeupInfo.price}`;
   desc.innerText = makeupInfo.description
   desc.setAttribute('class', 'desc')
   img.setAttribute('class', 'makeup-products');
