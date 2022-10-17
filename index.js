@@ -19,6 +19,8 @@ const container = document.querySelector('.product_section');
 const category = document.querySelector('#category');
 
 category.addEventListener('change',function(event){
+  const filtered = products.filter((obj)=>obj.category===event.target.value)
+
 })
 
 function inputData(makeupInfo) {
