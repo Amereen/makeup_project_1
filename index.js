@@ -33,7 +33,12 @@ function inputData(makeupInfo) {
   });
 	img.src = 'https:' + makeupInfo.api_featured_image; //concatenation
   divCard.append(name, img, price, btn, liked,desc);
-  
+  img.addEventListener('mouseover', function () {
+		console.log('working');
+		// alert('working');
+		console.log(makeupInfo.description);
+		desc.style.display = 'block';
+	});
 
 
 
