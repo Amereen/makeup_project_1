@@ -20,7 +20,7 @@ function inputData(makeupInfo) {
 	const desc = document.createElement('div');
 	const price = document.createElement('div');
  desc.innerText = makeupInfo.description
- 
+ desc.setAttribute('class', 'desc')
 
 
 }
