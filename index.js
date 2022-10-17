@@ -23,6 +23,7 @@ function inputData(makeupInfo) {
   desc.setAttribute('class', 'desc')
   img.setAttribute('class', 'makeup-products');
 	divCard.setAttribute('class', 'card');
+	btn.setAttribute('class', 'like-btn');
 
 
 }
