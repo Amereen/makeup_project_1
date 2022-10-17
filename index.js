@@ -40,13 +40,13 @@ function inputData(makeupInfo) {
 		desc.style.display = 'block';
 	});
   img.addEventListener('mouseleave', function () {
-		console.log('working');
+		// console.log('working');
 		// alert('working');
-		console.log(makeupInfo.description);
+		// console.log(makeupInfo.description);
 		desc.style.display = 'none';
 	});
 
-
+  container.append(divCard);
 
 
 
