@@ -28,5 +28,13 @@ function inputData(makeupInfo) {
   btn.addEventListener('click', function (event) {
 		const newLikes = (liked.innerText) 
 	liked.innerText = `${newLikes} Liked!`
-  })
+  });
+	img.src = 'https:' + makeupInfo.api_featured_image; //concatenation
+
+
+
+
+
+
+
 }
