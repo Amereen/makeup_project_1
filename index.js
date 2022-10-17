@@ -11,6 +11,13 @@ document.addEventListener('DOMContentLoaded', () => {
     
 });
 
+
+
+
+
+
+const category = document.querySelector('#category');
+
 function inputData(makeupInfo) {
   const divCard = document.createElement('div');
 	const btn = document.createElement('button');
