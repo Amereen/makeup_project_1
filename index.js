@@ -24,6 +24,9 @@ function inputData(makeupInfo) {
   img.setAttribute('class', 'makeup-products');
 	divCard.setAttribute('class', 'card');
 	btn.setAttribute('class', 'like-btn');
-	btn.innerHTML = '♥';
-
+	btn.innerText = '♥';
+  btn.addEventListener('click', function (event) {
+		const newLikes = (liked.innerText) 
+	liked.innerText = `${newLikes} Liked!`
+  })
 }
