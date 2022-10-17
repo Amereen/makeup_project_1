@@ -15,7 +15,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
 
 
-
+const container = document.querySelector('.product_section');
 const category = document.querySelector('#category');
 
 function inputData(makeupInfo) {
